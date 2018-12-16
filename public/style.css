@@ -1,0 +1,56 @@
+@import url('http://fonts.googleapis.com/css?family=Unlock|Text+Me+One');
+
+
+body {
+  background-color: beige;
+
+}
+
+.border {
+  border-style: inset;
+  border-width: 1px;
+  margin: 10px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  font-family: 'Text Me One';
+  color: #6F6E45;
+}
+
+ul {
+  margin-right: 0px;
+  align-items: right;
+}
+
+#navbar {
+  width: 50%;
+  padding-right: 0px;
+  text-align: center;
+}
+
+.nav {
+  display: inline;
+  padding: 10px;
+  color: white;
+}
+
+.body-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.right-bar {
+  padding: 10px;
+  text-align: center;
+  width: 20%;
+  height: 190px;
+  margin-top: 40px;
+  border-style: solid;
+  border-color: #6F6E45;
+}
